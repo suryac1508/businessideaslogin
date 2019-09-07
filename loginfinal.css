@@ -1,0 +1,62 @@
+.nav-wrapper{
+ background-color:white;
+ box-shadow:none !important;
+}
+nav{
+    height: 80px;
+    line-height: 10px;
+}
+.image img{
+	margin-top: 100px;
+ }
+.vl{
+margin-top: 100px;
+  border-left: 2px solid gray;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  margin-left: -1px;
+  
+}
+.row .loginform{
+	margin-left: 150px;
+}
+#email{
+	margin-top: 0px;
+}
+#label1{
+	margin-top: 0px;
+}
+.button1{
+	margin-left: 230px;
+}
+h5{
+	text-align: center;
+	margin-top: 160px;
+}
+@media screen and (max-width:850px){
+	.container{
+		display: none;
+}
+
+}
+@media screen and (min-width:0px ) and (max-width: 840px){
+	.mobileview{
+		display:block;
+		}
+}
+@media screen and (min-width:840px ){
+	.mobileview{
+		display:none;
+	}
+}
+
+.mobileview{
+	position: absolute;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform: translate(-50%);
+}
+.button2{
+	float: right;
+}
